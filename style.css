@@ -1,0 +1,167 @@
+
+:root {
+  --bg: #f0f4f8;
+  --primary: #2e3a59;
+  --highlight: #6c63ff;
+  --accent: #ff6b6b;
+  --white: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: var(--bg);
+  color: var(--primary);
+}
+
+header {
+  background: var(--highlight);
+  padding: 1rem 2rem;
+  color: var(--white);
+  position: sticky;:root {
+  --bg: #f0f4f8;
+  --primary: #2e3a59;
+  --highlight: #6c63ff;
+  --accent: #ff6b6b;
+  --white: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: var(--bg);
+  color: var(--primary);
+}
+
+header {
+  background: var(--highlight);
+  padding: 1rem 2rem;
+  color: var(--white);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  font-size: 1.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: var(--accent);
+}
+
+section {
+  padding: 4rem 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.centered {
+  text-align: center;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+.project {
+  background: #ffffff;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-left: 4px solid var(--highlight);
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+footer {
+  text-align: center;
+  background: var(--highlight);
+  color: white;
+  padding: 1rem;
+}
+
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  font-size: 1.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: var(--accent);
+}
+
+section {
+  padding: 4rem 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.centered {
+  text-align: center;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+.project {
+  background: #ffffff;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-left: 4px solid var(--highlight);
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+footer {
+  text-align: center;
+  background: var(--highlight);
+  color: white;
+  padding: 1rem;
+}
